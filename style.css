@@ -1,11 +1,13 @@
 body{
-    background: white;
+    background: lightgray;
     margin-top: 0px;
 }
-header h1{
+h1{
     background: white;
     border: darkgray;
     padding: 10px;
+    width: 100%;
+    text-align: center;
     }
 div.post{
     background: white;
@@ -17,6 +19,6 @@ div.post h2, div.post p{
     padding: 10px;
 }
 div.container{
-    width: 280px;
+    width: 300px;
     margin: auto;
 }

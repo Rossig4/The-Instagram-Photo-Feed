@@ -1,32 +1,41 @@
-<!DOCTYPE 
-html <html lang="en">
+<!DOCTYPE html <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Instagram Feed</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
-        <header>
+        <h1>Breathe Code Foto Feed</h1>
         <div class="container">
-            <h1>Breathe Code Foto Feed</h1>
-        </div>
-        </header>
-        <div class="container">
-        <div class="Post"></div>
-            <div class="foto1"></div>
+            <div class="Post">
                 <h2>My First Photo</h2>
                 <img src="data:image/jpeg;base64,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
                 f//Z"></img>
-                <div class="foto2"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ratione exercitationem quia corporis
+                pariatur voluptates, eveniet totam aut repellat, doloremque atque cupiditate nemo rem veniam repudiandae
+                explicabo illum eius quod.</p>
+            </div>
+            <div class="Post">
                 <h2>My Second Photo</h2>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdf_hK4v_dDsur2293maWRc2cK1EfGsBCDQ&usqp=CAU"></img>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ratione exercitationem quia corporis pariatur voluptates, eveniet totam aut repellat, doloremque atque cupiditate nemo rem veniam repudiandae explicabo illum eius quod.</p>
+                <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdf_hK4v_dDsur2293maWRc2cK1EfGsBCDQ&usqp=CAU"></img>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ratione exercitationem quia corporis
+                pariatur voluptates, eveniet totam aut repellat, doloremque atque cupiditate nemo rem veniam repudiandae
+                explicabo illum eius quod.</p>
+            </div>
+            <div class="Post">
+                <h2>My Third Photo</h2>
+                <img
+                src="https://dam.ngenespanol.com/wp-content/uploads/2019/10/perros-personalidad-2.jpg"></img>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ratione exercitationem quia corporis
+                pariatur voluptates, eveniet totam aut repellat, doloremque atque cupiditate nemo rem veniam repudiandae
+                explicabo illum eius quod.</p>
+            </div>
         </div>
-            <h2>My Third Photo</h2>
-    </div>
     </div>
 </body>
 
